@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Josefin Sans;
+    src: url(JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: Jost;
+    src: url(Jost-Light.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 80%;
+    margin: auto;
+    height: 55px;    
+    background-color: rgb(245, 238, 238);
+}
+#nav h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+#nav span{
+    color: rgb(255, 136, 0);
+
+}
+#navbar{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+#navbar button{
+    height: 100%;
+    width: 100px;
+    background-color: rgb(255, 136, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+#bottom{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 0px; 
+    width: 80%;
+    height: 90px;
+    /* background-color: #fff; */
+}
+#hbottom{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(61, 60, 60)
+}
+#hbottom h4{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Josefin Sans";
+}
+#hbottom span{
+    color: pink;
+}
+#ahbottom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+}
+#ahbottom h4{
+    position: absolute;
+    font-size: 13px;
+    font-family: "Jost";
+    top: 20%;
+    font-weight: 400;
+}
+#ahbottom i{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 25px;
+}
+#videodiv{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    right: 6%;
+    bottom: 0%;
+    width: 40%;
+    height: 35%;
+
+}
+.video{
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+#img1{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1575351881847-b3bf188d9d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aG90JTIwYWlyJTIwYmFsbG9vbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+#img1 i{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    font-size: 40px;
+}
+#img2{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1557402924-d9047fe5ebd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=411&q=80);
+    background-size: cover;
+}
+#img2 i{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    font-size: 40px;
+}
+#img3{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1567607365703-a8469a1020c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+}
+#img3 i{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    font-size: 40px;
+}
+#heading{
+    position: absolute;
+    left: 12%;
+    top: 12%;
+    width: 40%;
+    height: 60%;
+    /* background-color: pink; */
+}
+#one{
+    position: absolute;
+    top: 65%;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: "Bebas Neue";
+    color: white;
+    
+}
+#two{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 65%;
+    font-size: 60px;
+    left: 43%;
+    letter-spacing: 5px;
+    font-family: "Bebas Neue";
+}
+#heading img{
+    top: 10%;
+    position: absolute;
+    left: 26%;
+    height: 100%;
+}
+#book{
+    position: absolute;
+    display: flex;
+    top: 90%;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+#book i{
+    font-size: 25px;
+    cursor: pointer;
+}
+#book h4{
+    font-family: "Jost";
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
